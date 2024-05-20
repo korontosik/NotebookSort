@@ -22,7 +22,7 @@ public class MainNotebook {
         Notebook notebook13 = new Notebook("notebook13", 64, 1024, "Windows", "Gold", "sn013");
         Notebook notebook14 = new Notebook("notebook14", 64, 1024, "MacOS", "Gold", "sn0014");
 
-        System.out.println(notebook1);
+        // System.out.println(notebook1);
 //Создаем множество в котором будут храниться экземпляры класса Notebook
 
         Set<Notebook> notebooks = new HashSet<>(Arrays.asList(notebook1, notebook2, notebook3, notebook4, notebook5, notebook6, notebook7,
